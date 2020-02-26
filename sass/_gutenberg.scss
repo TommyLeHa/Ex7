@@ -1,3 +1,25 @@
 .rayures{
   @include rayure-bleu;
 }
+
+.animbloc1:hover{
+  animation-name: animbloc1;
+  animation-duration: 2s;
+}
+
+.animbloc2:hover{
+  animation-name: animbloc2;
+  animation-duration: 2s;
+}
+
+@keyframes animbloc1{
+  from{
+  background-color: rgb(255, 255, 255);
+  }
+
+  to{
+   background-color: rgb(48, 117, 221);
+   color: white;
+  }
+}
+

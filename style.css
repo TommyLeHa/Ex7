@@ -35,6 +35,40 @@ body {
   color: white;
 }
 
+.animbloc1:hover {
+  -webkit-animation-name: animbloc1;
+          animation-name: animbloc1;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+.animbloc2:hover {
+  -webkit-animation-name: animbloc2;
+          animation-name: animbloc2;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+@-webkit-keyframes animbloc1 {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: #3075dd;
+    color: white;
+  }
+}
+
+@keyframes animbloc1 {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: #3075dd;
+    color: white;
+  }
+}
+
 /* ------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
