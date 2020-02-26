@@ -7,9 +7,9 @@
   animation-duration: 2s;
 }
 
-.animbloc2:hover{
+.animbloc2{
   animation-name: animbloc2;
-  animation-duration: 2s;
+  animation-duration: 6s;
 }
 
 @keyframes animbloc1{
@@ -22,4 +22,16 @@
    color: white;
   }
 }
+@keyframes animbloc2{
+  0%{
+    transform: translateX(90px);
+  }
+  50%{
+    transform: translateX(300px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}
+
 
