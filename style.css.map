@@ -1,10 +1,12 @@
 {
     "version": 3,
-    "mappings": ";AAAA;;;;;;;;;;;;EAYE;AACF;;gEAEgE;ACfhE,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,wBAAwB;CACxC;;AACD,AAAA,MAAM,CAAC,YAAY,AAAA,OAAO,CAAA;EACtB,OAAO,EAAE,IAAI;CAChB;;ADYD;;gEAEgE;AEnBhE,AAAA,QAAQ,CAAA;EACJ,UAAU,EAAE,mFAMb;EACD,KAAK,EAAC,KAAK;CACV",
+    "mappings": ";AAAA;;;;;;;;;;;;EAYE;AACF;;;gEAGgE;AChBhE,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,wBAAwB;CACxC;;AACD,AAAA,MAAM,CAAC,YAAY,AAAA,OAAO,CAAA;EACtB,OAAO,EAAE,IAAI;CAChB;;ADaD;;gEAEgE;AAGhE;;gEAEgE;AGzBhE,AAAA,QAAQ,CAAA;EDCJ,UAAU,EAAE,oFAA0H;EACtI,KAAK,EAAC,KAAK;CCAd;;AHyBD;;gEAEgE",
     "sources": [
         "sass/style.scss",
         "sass/_entete.scss",
-        "sass/_gutenberg.scss"
+        "sass/_mixin.scss",
+        "sass/_gutenberg.scss",
+        "sass/_footer.scss"
     ],
     "names": [],
     "file": "style.css"
